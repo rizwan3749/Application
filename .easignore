@@ -1,0 +1,62 @@
+# Ignore ALL AppData directories (Windows system files)
+AppData/
+**/AppData/**
+AppData/**/*
+**/AppData/**/*
+
+# Chrome cache files - be very specific
+**/Chrome/**
+**/Chrome/**/*
+**/User Data/**
+**/User Data/**/*
+**/Code Cache/**
+**/Code Cache/**/*
+**/Cache/**
+**/Cache/**/*
+**/Cache_Data/**
+**/Cache_Data/**/*
+**/Sessions/**
+**/Sessions/**/*
+
+# Windows Temp files - be very explicit
+**/Temp/**
+**/Temp/**/*
+**/Temp/*.tmp
+**/Temp/**/*.tmp
+AppData/Local/Temp/**
+AppData/Local/Temp/**/*
+AppData/Local/Temp/*.tmp
+AppData/Local/Temp/**/*.tmp
+*.tmp
+**/*.tmp
+ps-script-*.ps1
+ps-state-out-*.txt
+**/*-*.tmp
+
+# Windows system directories
+AppData/Local/**
+AppData/Local/**/*
+AppData/Roaming/**
+AppData/Roaming/**/*
+AppData/Local/Temp/**
+AppData/Local/Temp/**/*
+AppData/Local/Google/Chrome/**
+AppData/Local/Google/Chrome/**/*
+AppData/Local/Packages/**
+AppData/Local/Packages/**/*
+AppData/Local/Packages/MicrosoftWindows.Client.WebExperience_*/**
+
+# Cursor/IDE files
+**/Cursor/**
+**/Cursor/**/*
+**/blob_storage/**
+**/blob_storage/**/*
+
+# Desktop shortcuts
+Desktop/**
+Desktop/**/*
+*.lnk
+
+# INetCache
+**/INetCache/**
+**/INetCache/**/*
